@@ -74,3 +74,12 @@ Ensure you have Docker installed on your system.
 3. for postgresql database:
 -docker-compose run app alembic revision --autogenerate -m "New Migration"
 -docker-compose run app alembic upgrade head
+
+### Database Connection Details:
+You will need the following details to connect to your PostgreSQL database:
+
+URL (Database Connection URL): postgresql+psycopg2://postgres:password@db:5432/labs
+Database Username: postgres
+Database Password: password
+Database Name: labs
+
