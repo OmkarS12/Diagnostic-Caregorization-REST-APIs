@@ -83,3 +83,6 @@ Database Username: postgres
 Database Password: password
 Database Name: labs
 
+PGadmin username: admin@admin.com
+Password: password
+
