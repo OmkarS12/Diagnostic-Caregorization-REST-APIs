@@ -57,3 +57,28 @@
 # #       careplan.rationale,
 # #       careplan.recommendations,
 # #       careplan.alternatives)
+
+
+{
+    "mrn": 123456,
+    "name": "Johny Doe",
+    "age": 53,
+    "sex": "Male"
+}
+
+{
+    "ascvd_score": 7.2,
+    "patient_id": 1
+}
+
+{
+    "hdl_c": 60.5,
+    "ldl_c": 110.2,
+    "lp_a": 25.1,
+    "triglycerides": 120.3,
+    "apo_b": 85.4,
+    "apo_a1": 70.7,
+    "hs_crp": 2.5,
+    "units": "mg/dL",
+    "patient_id": 1
+}

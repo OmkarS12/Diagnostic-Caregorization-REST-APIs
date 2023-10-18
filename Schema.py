@@ -3,7 +3,6 @@ from typing import Optional
 
 
 class PatientModel(BaseModel):
-    id: Optional[int] = None
     mrn: int
     name: str
     age: int
@@ -11,15 +10,12 @@ class PatientModel(BaseModel):
 
 
 class RiskScoreModel(BaseModel):
-    id: Optional[int] = None
     ascvd_score: float = None
-    patient_id: int
 
 
 class ResponseRiskScoreModel(BaseModel):
     ascvd_score: float
     ascvd_risk: str
-    patient_id: int
 
 
 class LipidBiomarkersModel(BaseModel):
@@ -32,7 +28,6 @@ class LipidBiomarkersModel(BaseModel):
     apo_a1: float = None
     hs_crp: float = None
     units: str = None
-    patient_id: int
 
 
 class ResponseLipidBiomarkersModel(BaseModel):
@@ -44,7 +39,6 @@ class ResponseLipidBiomarkersModel(BaseModel):
     apo_a1_risk: str
     hs_crp_risk: str
     units: str
-    patient_id: int
 
 
 class CarePlanModel(BaseModel):
@@ -54,4 +48,3 @@ class CarePlanModel(BaseModel):
     rationale: str = None
     recommendations: str = None
     alternatives: str = None
-    patient_id: int
